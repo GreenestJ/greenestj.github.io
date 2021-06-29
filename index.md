@@ -1,7 +1,7 @@
-##### Path: [root](https://greenestj.github.io):/
+##### Path: [root](https://greenj.net):/
 
 ## Pages on site
-### [Minecraft](https://greenestj.github.io/minecraft)
+### [Minecraft](https://greenj.net/minecraft)
 
 
 # Welcome
@@ -11,7 +11,7 @@ I don't know what to do with this
 
 
 
-# Links
+### Random Links
 
 ### [How to do an infinite](https://www.youtube.com/watch?v=vpYdEjvAg3k)
 

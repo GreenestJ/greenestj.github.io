@@ -1,4 +1,4 @@
-Path [root]/[minecraft]/[mods]
+##### Path: [root](https://greenj.net):/[minecraft](https://greenj.net/minecraft)/[mods](https://greenj.net/minecraft/mods)
 
 # Mod List
 
