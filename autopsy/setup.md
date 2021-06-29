@@ -99,6 +99,8 @@ The mod that was gonna be used to handle client side mods was incompatible (brea
 
 ## Errors {#error}
 
-Before you report anything try reimporting the pack, changing to another launcher than what you used (MultiMC -> Curse \| Curse -> MultiMC), and reinstalling the pack from mega and importing again. If none of those work contact Me (GreenJ) or Mr. Danger (who will relay it). 
+Before you report anything try reimporting the pack, changing to another launcher than what you used (MultiMC -> Curse \| Curse -> MultiMC), and reinstalling the pack from mega and importing again. If none of those work contact Me (GreenJ) or Mr. Danger (who will relay it).
+
 If you use MultiMC click edit instance before launching and it shows a log. In top right theres an upload button that gives a link please send the paste.ee link. 
+
 If you use CurseForge. Don't. (I will try to help but MultiMC runs more reliably so try using that before asking for support.)
