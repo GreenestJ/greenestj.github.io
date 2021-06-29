@@ -1,27 +1,160 @@
-##### Path: [root](https://greenj.net):/[autopsy](https://greenj.net/autopsy)/[setup](https://greenj.net/autopsy/setup)
+##### Path: [root](https://greenj.net):/[autopsy](https://greenj.net/autopsy)/[info](https://greenj.net/autopsy/info)
 
 # Mod Info
 
 #### [How to setup the modpack](http://greenj.net/autopsy/setup)
 
+# Mods Not Included That Were Requested {#excluded}
 
-## Mods Not Included That Were Requested
+## Origins
 
-### Origins
+Origins is a fabric mod which is incompatible with forge mod loader and no we won't use fabric mod loader
 
-Origins is a fabric mod which is incompatible with forge mod loader
-
-### Witchery
+## Witchery
 
 Witchery was only made for 1.7.10 only there is a spiritual succesor called bewitchment but we decided against it as it is similar but not the same.
 
-### Optifine
+## Optifine
 
-With Optifine I was unsure wether it would cause weird imcompatibilities (Main reason) and its against optifines policy to redistrubite it so if you want you can add it to the mods files manually.
+With Optifine I was unsure whether it would cause weird imcompatibilities (Main reason) and its against optifines policy to redistrubite it so if you want you can add it to the mods files manually.
 
-## Full Mod List
 
-Soon:TM:
+# Nearly Full Mod List {#full-list}
+##### I am not putting dependicies in this list (Not all mods are in use theyre there as a just in case)
+##### For Guides look up the mod on youtube
 
-## Mod and Info
-
+[Mo' Villages](https://www.curseforge.com/minecraft/mc-mods/mo-villages) 
+[Additional Banners](https://www.curseforge.com/minecraft/mc-mods/additional-banners) 
+[AE2 Stuff](https://www.curseforge.com/minecraft/mc-mods/ae2-stuff)
+[Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome) 
+[Alchemistry](https://www.curseforge.com/minecraft/mc-mods/alchemistry)
+[Anvil Patch](https://www.curseforge.com/minecraft/mc-mods/anvil-patch-lawful)
+[Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) 
+[Applied Energistics](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) 
+[Aquaculture](https://www.curseforge.com/minecraft/mc-mods/aquaculture) 
+[Armory Expansion](https://www.curseforge.com/minecraft/mc-mods/armory-expansion)
+[Attribute Fix](https://www.curseforge.com/minecraft/mc-mods/attributefix) 
+[Battle Towers](https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-battle-towers) 
+[Baublelicious](https://www.curseforge.com/minecraft/mc-mods/baublelicious)
+[Baubles](https://www.curseforge.com/minecraft/mc-mods/baubles)
+[BaublesHud](https://www.curseforge.com/minecraft/mc-mods/baubleshud) 
+[Baubley Heart Containers](https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters) 
+[Better Caves](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves) 
+[Better Invalid Session]() 
+[Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge) 
+[Better Ping Display](https://www.curseforge.com/minecraft/mc-mods/better-invalid-session) 
+[Biomes o' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
+[Blood Arsenal](https://www.curseforge.com/minecraft/mc-mods/blood-arsenal)
+[Blood Magic](https://www.curseforge.com/minecraft/mc-mods/blood-magic) 
+[Blood Tinkers](https://www.curseforge.com/minecraft/mc-mods/tinkering-with-blood-magic)
+[Bountiful Baubles](https://www.curseforge.com/minecraft/mc-mods/bountifulbaubles) 
+[Colossal Chests](https://www.curseforge.com/minecraft/mc-mods/colossal-chests)
+[Common Capabilities](https://www.curseforge.com/minecraft/mc-mods/common-capabilities)
+[Construct's Armory](https://www.curseforge.com/minecraft/mc-mods/constructs-armory) 
+[Content Tweaker](https://www.curseforge.com/minecraft/mc-mods/contenttweaker) 
+[Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
+[Cosmetic Armour](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked) 
+[Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks) 
+[CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker)
+[Default Options](https://www.curseforge.com/minecraft/mc-mods/default-options) 
+[Dense Metals](https://www.curseforge.com/minecraft/mc-mods/dense-metals) 
+[Diet Hoppers](https://www.curseforge.com/minecraft/mc-mods/diet-hoppers)
+[Ding](https://www.curseforge.com/minecraft/mc-mods/ding)
+[Disenchanter](https://www.curseforge.com/minecraft/mc-mods/the-disenchanter-mod)
+[Doomlike Dungeons](https://www.curseforge.com/minecraft/mc-mods/project-74246)
+[Dynamic View Distance](https://www.curseforge.com/minecraft/mc-mods/dynamic-view) - For The Server
+[Electroblobs Wizardry](https://www.curseforge.com/minecraft/mc-mods/electroblobs-wizardry)
+[Extra Spells](https://www.curseforge.com/minecraft/mc-mods/extra-spells-electroblobs-wizardry)
+[Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+[Extreme Reactors](https://www.curseforge.com/minecraft/mc-mods/extreme-reactors)
+[Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace)
+[Fast Workbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench)
+[Fast Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay)
+[FTB Backups](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge)
+[FTB Utilities](https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge)
+[MrCrayfish's Furniture Mod](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod)
+[Hats](https://www.curseforge.com/minecraft/mc-mods/hats)
+[Hat Stand](https://www.curseforge.com/minecraft/mc-mods/hat-stand)
+[\[HWYLA\] Heres what your looking at](https://www.curseforge.com/minecraft/mc-mods/hwyla)
+[Illagers+](https://www.curseforge.com/minecraft/mc-mods/illagers)
+[Initial Inventory](https://www.curseforge.com/minecraft/mc-mods/initial-inventory)
+[Item Blacklist](https://www.curseforge.com/minecraft/mc-mods/item-blacklist)
+[It's The Little Thing](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
+[\[JEI\] Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei)
+[JEI Integration](https://www.curseforge.com/minecraft/mc-mods/jei-integration)
+[\[JEPB\] Just Enough Pattern Banners](https://www.curseforge.com/minecraft/mc-mods/just-enough-pattern-banners)
+[\[JETIF\] Just Enough Throwing Items in Fluids](https://www.curseforge.com/minecraft/mc-mods/jetif)
+[\[JEBC\] Just Enough BrewCraft](https://www.curseforge.com/minecraft/mc-mods/just-enough-brewcraft)
+[\[JEC\] Just Enough Calculation](https://www.curseforge.com/minecraft/mc-mods/just-enough-calculation)
+[\[JEE\] Just Enough Energistics](https://www.curseforge.com/minecraft/mc-mods/just-enough-energistics-jee)
+[\[JEHC\] Just Enough HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/just-enough-harvestcraft)
+[\[JER\] Just Enough Reactors](https://www.curseforge.com/minecraft/mc-mods/just-enough-reactors)
+[\[JER\] Just Enough Resources](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer)
+[\[JEIDs\] Just Enough IDs](https://www.curseforge.com/minecraft/mc-mods/jeid)
+[JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
+[Keyboard Wizard](https://www.curseforge.com/minecraft/mc-mods/keyboard-wizard)
+[Login Shield](https://www.curseforge.com/minecraft/mc-mods/login-shield)
+[Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
+[Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators)
+[Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
+[Moar Tinkers](https://www.curseforge.com/minecraft/mc-mods/moar-tinkers)
+[ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker)
+[More Overlays](https://www.curseforge.com/minecraft/mc-mods/more-overlays)
+[Paintings++](https://www.curseforge.com/minecraft/mc-mods/paintings)
+[Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) - Server Mod
+[MouseTweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
+[Mowzie Mobs](https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs)
+[Multi Mine](https://www.curseforge.com/minecraft/mc-mods/multi-mine)
+[Natures Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
+[Netherending Ores](https://www.curseforge.com/minecraft/mc-mods/netherending-ores)
+[Nether Portal Fix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix)
+[No Recipe Book](https://www.curseforge.com/minecraft/mc-mods/no-recipe-book)
+[Ocean Floor \| Sand Clay and Dirt](https://www.curseforge.com/minecraft/mc-mods/ocean-floor-clay-sand-and-dirt)
+[Ore Excavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
+[Pam's BrewCraft](https://www.curseforge.com/minecraft/mc-mods/pams-brewcraft)
+[Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft)
+[Parry](https://www.curseforge.com/minecraft/mc-mods/parry)
+[Particle Culling](https://www.curseforge.com/minecraft/mc-mods/particle-culling)
+[PlusTiC](https://www.curseforge.com/minecraft/mc-mods/plusticminusbad)
+[Pneumaticcraft](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized)
+[Portality](https://www.curseforge.com/minecraft/mc-mods/portality)
+[Project Red - Core](https://www.curseforge.com/minecraft/mc-mods/project-red-core)
+[Project Red - Compat](https://www.curseforge.com/minecraft/mc-mods/project-red-compat)
+[Project Red - Fabrication](https://www.curseforge.com/minecraft/mc-mods/project-red-fabrication)
+[Project Red - Integration](https://www.curseforge.com/minecraft/mc-mods/project-red-integration)
+[Project Red - Lighting](https://www.curseforge.com/minecraft/mc-mods/project-red-illumination)
+[Project Red - Mechanical](https://www.curseforge.com/minecraft/mc-mods/project-red-expansion)
+[Project Red - World](https://www.curseforge.com/minecraft/mc-mods/project-red-exploration)
+[Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
+[Quark Oddities](https://www.curseforge.com/minecraft/mc-mods/quark-oddities)
+[Random Patches](https://www.curseforge.com/minecraft/mc-mods/randompatches-forge)
+[Realistic Item Drops](https://www.curseforge.com/minecraft/mc-mods/realistic-item-drops)
+[ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth)
+[Rex's Additional Structures](https://www.curseforge.com/minecraft/mc-mods/additional-structures)
+[Save My Stronghold](https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold)
+[So Many Enchantments](https://www.curseforge.com/minecraft/mc-mods/so-many-enchantments)
+[Stackie](https://www.curseforge.com/minecraft/mc-mods/stackie)
+[Tinkers Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
+[Thaumcrat](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+[Thaumic Augmentation](https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation)
+[Thaumic Energistics](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics)
+[Thaumic Inventory Scanning](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning)
+[Thaumic JEI](https://www.curseforge.com/minecraft/mc-mods/thaumic-jei)
+[Thinkers Complement](https://www.curseforge.com/minecraft/mc-mods/tinkers-complement)
+[Tinkers JEI](https://www.curseforge.com/minecraft/mc-mods/tinkers-jei)
+[Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control)
+[Corail Tombstone](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone)
+[Trash Slot](https://www.curseforge.com/minecraft/mc-mods/trashslot)
+[Traveler's Backpack](https://www.curseforge.com/minecraft/mc-mods/travelers-backpack)
+[Unidict](https://www.curseforge.com/minecraft/mc-mods/unidict)
+[Unloader](https://www.curseforge.com/minecraft/mc-mods/unloader)
+[Waiting Time](https://www.curseforge.com/minecraft/mc-mods/waitingtime)
+[Water Mechanics Backport](https://www.curseforge.com/minecraft/mc-mods/bubble-column-elevator-backport)
+[\[WAWLA\] What are we looking at](https://www.curseforge.com/minecraft/mc-mods/wawla)
+[Wireless Crafting Terminal](https://www.curseforge.com/minecraft/mc-mods/wireless-crafting-terminal)
+[Wireless Fluid Terminal](https://www.curseforge.com/minecraft/mc-mods/wireless-fluid-terminal)
+[Wireless Interface Terminal](https://www.curseforge.com/minecraft/mc-mods/wireless-interface-terminal)
+[Wireless Pattern Terminal](https://www.curseforge.com/minecraft/mc-mods/wireless-pattern-terminal)
+[Wither Skeleton Tweaks](https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks)
+[Joy of Painting](https://www.curseforge.com/minecraft/mc-mods/joy-of-painting)
+[\[YARCF\] Yet another recipe conflict fixer](https://www.curseforge.com/minecraft/mc-mods/yarcf)

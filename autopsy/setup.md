@@ -2,6 +2,8 @@
 
 # How to setup the modpack
 
+###### Mod Packs take longer to boot on first launch than any time afterwards
+
 ## Table of Contents
 1. ### [Importing](#import)
     * ### [MultiMC](#import-multimc)
@@ -20,7 +22,7 @@ I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find 
 
 ## MultiMC {#import-multimc}
 
-1\. [Download The MultiMC Version Of The Modpack](link) **DO NOT UNZIP IT**
+1\. [Download The MultiMC Version Of The Modpack](link) **DO NOT UNZIP**
 
 2\. Launch MultiMC
 
@@ -30,7 +32,7 @@ I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find 
 
 5\. Click browse and find the zip in your files
 
-5\.5\. I recommend making a group for the pack by typing a group name in the group field but this is not necessary if you don't plan to use MultiMC a lot.
+5\.1\. I recommend making a group for the pack by typing a group name in the group field but this is not necessary if you don't plan to use MultiMC a lot.
 
 6\. Click Ok and the mod pack will start importing. While importing the program will stop responding it is working fine it just works like that for some reason so wait for it to respond again.
 
@@ -39,7 +41,7 @@ I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find 
 
 ## CurseForge {#import-curse}
 
-1\. [Download The Curse Version Of The Modpack](link)
+1\. [Download The Curse Version Of The Modpack](link) **DO NOT UNZIP**
 
 2\. Click create custom profile
 
@@ -55,7 +57,7 @@ For other launchers use the curseforge release and search up or look around the 
 
 # How to Dedicate Ram {#ram}
 
-***WARNING:*** Dedicating too much ram can cause its own issues as explained [here](https://vazkii.net/blog_archive/#blog/ram-explanation) best method thing is to experiment by dedicating a base line and increasing it by 512 MB/0.5 GB if it crashes or is laggy. 
+***WARNING:*** Dedicating too much ram can cause its own issues as explained [here](https://vazkii.net/blog_archive/#blog/ram-explanation). The best method to figure out how much ram is needed is to experiment by dedicating a base line and increasing it by 512 MB/0.5 GB if it crashes or is laggy. 
 Keep in mind a CPU can also cause issue due to how minecraft was designed that no amount of ram can fix (same reason why servers can't hold 100+ people)
 
 ## MultiMC {#ram-multimc}
@@ -88,8 +90,12 @@ For other launchers look it up
 
 # How To Customize {#custom}
 
-The mod pack has optional client side mods if your computer is stronger you can activate or disable if your computer isn't strong
+~~The mod pack has optional client side mods that a mod handles controlling if your computer is stronger you can activate certain ones or disable certain ones if your computer isn't strong~~
+
+The mod that was gonna be used to handle client side mods was incompatible (breaks due to blood magic) so I decided against having certain client side mods as they just add unnecessary strain to everyone no matter the setup. You can still manually add client side mods but do so at your own risk of running minecraft worse.
 
 ## Errors {#error}
 
-Before you report anything try reimporting the pack, changing to other launcher than what you used (MultiMC -> Curse \| Curse -> MultiMC), and reinstalling the pack from mega and importing again. If none of those work contact Me (GreenJ) or Mr. Danger (who will relay it). If you use MultiMC click edit instance before launching and it shows a log in top left theres upload it gives a link please send the paste.ee link. If you use CurseForge don't. (I will try to help but MultiMC runs more reliably so try using that before asking for support.)
+Before you report anything try reimporting the pack, changing to another launcher than what you used (MultiMC -> Curse \| Curse -> MultiMC), and reinstalling the pack from mega and importing again. If none of those work contact Me (GreenJ) or Mr. Danger (who will relay it). 
+If you use MultiMC click edit instance before launching and it shows a log. In top right theres an upload button that gives a link please send the paste.ee link. 
+If you use CurseForge. Don't. (I will try to help but MultiMC runs more reliably so try using that before asking for support.)
