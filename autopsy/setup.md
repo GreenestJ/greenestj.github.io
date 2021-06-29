@@ -20,9 +20,12 @@
 
 I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find it more stable but an okay alternative is [CurseForge](https://download.curseforge.com/)
 
+**File Size Discrepancy and possible bugs:** MultiMC exports the file as a zip so all the mods are still in the zip. CurseForge exports a list of mods which it then looks to to download from. MultiMCs Verision is more relaiable but way larger file size. If there are any mods missing in curse's version its because curse didn't export the list properly. To get around this download the multimc pack, create an instance in curse, extract the the zip, and drop the mods and configs directly into curses instance folder.
+
+
 ## MultiMC {#import-multimc}
 
-1\. [Download The MultiMC Version Of The Modpack](link) **DO NOT UNZIP**
+1\. [Download The MultiMC Version Of The Modpack](https://mega.nz/file/29AWAZLR#JfiC1ImpaxA5nLGx3K3hyvJuSUPZkGeZr0JSNyH6tWQ) **DO NOT UNZIP**
 
 2\. Launch MultiMC
 
@@ -41,7 +44,7 @@ I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find 
 
 ## CurseForge {#import-curse}
 
-1\. [Download The Curse Version Of The Modpack](link) **DO NOT UNZIP**
+1\. [Download The Curse Version Of The Modpack](https://mega.nz/file/j4J2QJQK#3SXaMsBuoJQ0CGRSimP2-tK4VTinj2WUEq0O6uIqhqQ) **DO NOT UNZIP**
 
 2\. Click create custom profile
 
