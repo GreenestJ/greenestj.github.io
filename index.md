@@ -1,6 +1,14 @@
+##### Path: [root](https://greenestj.github.io):/
+
+## Pages on site
+### [Minecraft](https://greenestj.github.io/minecraft)
+
+
 # Welcome
 
 I don't know what to do with this
+
+
 
 
 # Links
