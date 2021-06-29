@@ -3,51 +3,51 @@
 # How to setup the modpack
 
 ## Table of Contents
-* ### [Importing](#import)
+1. ### [Importing](#import)
     * ### [MultiMC](#import-multimc)
     * ### [CurseForge](#import-curse)
     * ### [Other](#import-other)
-* ### [Dedicating Ram](#ram)
+2. ### [Dedicating Ram](#ram)
     * ### [MultiMC](#ram-multimc)
     * ### [CurseForge](#ram-curse)
     * ### [Other](#ram-other)
-* ### [Customizing](#custom)
-* ### [Errors](#error)
+3. ### [Customizing](#custom)
+4. ### [Errors](#error)
 
 # How to import the mod pack {#import}
 
-I recommend using [MultiMC]() as a launcher but an okay alternative is [CurseForge]()
+I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find it more stable but an okay alternative is [CurseForge](https://download.curseforge.com/)
 
 ## MultiMC {#import-multimc}
 
-\1. [Download The MultiMC Version Of The Modpack](link) **DO NOT UNZIP IT**
+1\. [Download The MultiMC Version Of The Modpack](link) **DO NOT UNZIP IT**
 
-\2. Launch MultiMC
+2\. Launch MultiMC
 
-\3. In the top left click on add instance
+3\. In the top left click on add instance
 
-\4. Choose import from zip
+4\. Choose import from zip
 
-\5. Click browse and find the zip in your files
+5\. Click browse and find the zip in your files
 
-\5.5. I recommend making a group for the pack by typing a group name in the group field but this is not necessary if you don't plan to use MultiMC a lot.
+5\.5\. I recommend making a group for the pack by typing a group name in the group field but this is not necessary if you don't plan to use MultiMC a lot.
 
-\6. Click Ok and the mod pack will start importing. While importing the program will stop responding it is working fine it just works like that for some reason so wait for it to respond again.
+6\. Click Ok and the mod pack will start importing. While importing the program will stop responding it is working fine it just works like that for some reason so wait for it to respond again.
 
-\7. Mod Packs almost ready to go all thats left is dedicating ram which is below
+7\. Mod Packs almost ready to go all thats left is dedicating ram which is below
 
 
 ## CurseForge {#import-curse}
 
-\1. [Download The Curse Version Of The Modpack](link)
+1\. [Download The Curse Version Of The Modpack](link)
 
-\2. Click create custom profile
+2\. Click create custom profile
 
-\3. At the top below Create Profile it says `or Import a previously created profile` click on import
+3\. At the top below Create Profile it says `or Import a previously created profile` click on import
 
-\4. Select the mod pack
+4\. Select the mod pack
 
-\5. It should auto install (I don't use Curse anymore so I'm not sure) and be ready except ram dedication which is below
+5\. It should auto install (I don't use Curse anymore so I'm not sure) and be ready except ram dedication which is below
 
 ## Other Launchers {#import-other}
 
@@ -60,27 +60,27 @@ Keep in mind a CPU can also cause issue due to how minecraft was designed that n
 
 ## MultiMC {#ram-multimc}
 
-\1. Click on the mod pack to have it selected.
+1\. Click on the mod pack to have it selected.
 
-\2. On the right side click on Edit Instance
+2\. On the right side click on Edit Instance
 
-\3. Click on Settings
+3\. Click on Settings
 
-\4. Check the memory box to allow custom values
+4\. Check the memory box to allow custom values
 
-\5. Set the minimum and maximum ram to what you want (1 Gigabyte is 1024 Megabytes)
+5\. Set the minimum and maximum ram to what you want (1 Gigabyte is 1024 Megabytes)
 
-\6. It's ready you can just close the setting windows it auto saves and launch the pack
+6\. It's ready you can just close the setting windows it auto saves and launch the pack
 
 ## CurseForge {#ram-curse}
 
-\1. Click on the pack and be in its menu
+1\. Click on the pack and be in its menu
 
-\2. Click on the 3 dots next to play then profile options
+2\. Click on the 3 dots next to play then profile options
 
-\3. Uncheck use system memory and adjust the bar to whatever you want (The Min and Max ram is set the same \| 1 GB is 1024 MB)
+3\. Uncheck use system memory and adjust the bar to whatever you want (The Min and Max ram is set the same \| 1 GB is 1024 MB)
 
-\4. Click Done and you're ready to use the pack
+4\. Click Done and you're ready to use the pack
 
 ## Other Launchers {#ram-other}
 
