@@ -3,15 +3,16 @@
 # How to setup the modpack
 
 ## Table of Contents
-### * [Importing](import)
-###     * [MultiMC](#import-multimc)
-###     * [CurseForge](#import-curse)
-### * [Dedicating Ram](#ram)
-###     * [MultiMC](#ram-multimc)
-###     * [CurseForge](#ram-curse)
-### * [Customizing](#custom)
-### * [Errors](#error)
-* ### Test
+* ### [Importing](#import)
+    * ### [MultiMC](#import-multimc)
+    * ### [CurseForge](#import-curse)
+    * ### [Other](#import-other)
+* ### [Dedicating Ram](#ram)
+    * ### [MultiMC](#ram-multimc)
+    * ### [CurseForge](#ram-curse)
+    * ### [Other](#ram-other)
+* ### [Customizing](#custom)
+* ### [Errors](#error)
 
 # How to import the mod pack {#import}
 
@@ -48,7 +49,7 @@ I recommend using [MultiMC]() as a launcher but an okay alternative is [CurseFor
 
 \5. It should auto install (I don't use Curse anymore so I'm not sure) and be ready except ram dedication which is below
 
-## Other Launchers
+## Other Launchers {#import-other}
 
 For other launchers use the curseforge release and search up or look around the program for how to import
 
@@ -81,10 +82,14 @@ Keep in mind a CPU can also cause issue due to how minecraft was designed that n
 
 \4. Click Done and you're ready to use the pack
 
+## Other Launchers {#ram-other}
+
+For other launchers look it up
+
 # How To Customize {#custom}
 
 The mod pack has optional client side mods if your computer is stronger you can activate or disable if your computer isn't strong
 
 ## Errors {#error}
 
-If you come across errors contact GreenJ or Mr. Danger (who will relay it). If you use MultiMC click edit instance before launching and it shows a log in top left theres upload it gives a link please send the paste.ee link. If you use CurseForge don't. (I will try to help but MultiMC runs more reliably so try using that before asking for support.)
+Before you report anything try reimporting the pack, changing to other launcher than what you used (MultiMC -> Curse \| Curse -> MultiMC), and reinstalling the pack from mega and importing again. If none of those work contact Me (GreenJ) or Mr. Danger (who will relay it). If you use MultiMC click edit instance before launching and it shows a log in top left theres upload it gives a link please send the paste.ee link. If you use CurseForge don't. (I will try to help but MultiMC runs more reliably so try using that before asking for support.)
