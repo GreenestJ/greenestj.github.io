@@ -1,4 +1,4 @@
-##### Path: [root](https://greenj.net):/[autopsy](https://greenj.net/autopsy):/[setup](https://greenj.net/autopsy/setup)
+##### Path: [root](https://greenj.net):/[autopsy](https://greenj.net/autopsy)/[setup](https://greenj.net/autopsy/setup)
 
 # Mod Info
 
