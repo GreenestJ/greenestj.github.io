@@ -1,8 +1,5 @@
 ##### Path: [root](https://greenj.net):/
 
-## Pages on site
-### [Minecraft](https://greenj.net/minecraft)
-
 
 # Welcome
 
