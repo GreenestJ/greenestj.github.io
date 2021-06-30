@@ -25,7 +25,7 @@ I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find 
 
 ## MultiMC {#import-multimc}
 
-1\. [Download The MultiMC Version Of The Modpack](https://mega.nz/file/29AWAZLR#JfiC1ImpaxA5nLGx3K3hyvJuSUPZkGeZr0JSNyH6tWQ) **DO NOT UNZIP**
+1\. [Download The MultiMC Version Of The Modpack](https://mega.nz/file/W8w0HIiZ#Pzfxn-lqwd4uKWdblFdNfJX5M7Jxd-yaYdKpu3tCQq4) **DO NOT UNZIP**
 
 2\. Launch MultiMC
 
@@ -44,7 +44,7 @@ I recommend using [MultiMC](https://multimc.org/#Download) as a launcher I find 
 
 ## CurseForge {#import-curse}
 
-1\. [Download The Curse Version Of The Modpack](https://mega.nz/file/j4J2QJQK#3SXaMsBuoJQ0CGRSimP2-tK4VTinj2WUEq0O6uIqhqQ) **DO NOT UNZIP**
+1\. [Download The Curse Version Of The Modpack](https://mega.nz/file/W95lDSQD#-2otemsWEFUsrlv8omdAh7_7UD_D-T2UWRDN4O6QaII) **DO NOT UNZIP**
 
 2\. Click create custom profile
 
