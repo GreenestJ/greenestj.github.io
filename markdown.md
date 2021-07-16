@@ -1,4 +1,4 @@
-# A Page for me to consult mardown on
+# A Page for me to consult markdown on
 
 # Heading level 1
 
