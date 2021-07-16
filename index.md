@@ -1,15 +1,18 @@
 ##### Path: [root](https://greenj.net):/
 
-## Pages
-### [Projects](https://greenj.net/projects)
-### [Show and Reading Tracking](http://greenj.net/tracker)
+# Pages
+## [Projects](https://greenj.net/projects)
+## [Show and Reading Tracking](http://greenj.net/tracker)
 
+‏‏‎ ‎
+‏‏‎ ‎
 
 # Welcome
 
 I have some misc stuff but don't really know what to do with this site
 
-
+‏‏‎ ‎
+‏‏‎ ‎
 
 ### Random Links
 
