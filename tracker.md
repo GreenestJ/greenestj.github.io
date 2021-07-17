@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>GreenJ.net<title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -136,7 +137,7 @@ for (i = 0; i < coll.length; i++) {
 </script>
 </body>
 </html>
-<title>GreenJ.net<title>
+
 
 
 ##### Path: [root](https://greenj.net):/[tracker](https://greenj.net/tracker)/
