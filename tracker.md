@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>GreenJ.net<title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -107,9 +106,9 @@ function topFunction() {
 
 <button class="collapsible">Live Action Shows</button>
 <div class="content">
-  <p> <br>
+  <br>
   <h2>Test</h2>
-  </p>
+  <br>
 </div>
 <button class="collapsible">Open Section 3</button>
 <div class="content">
