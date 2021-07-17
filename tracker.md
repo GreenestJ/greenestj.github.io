@@ -102,27 +102,19 @@ function topFunction() {
 </head>
 <body>
 
-<h2>Animated Collapsibles</h2>
+<h1>Table of Contents</h1>
 
-<p>Collapsible Set:</p>
-<button class="collapsible">Open Section 1</button>
+<button class="collapsible">Live Action Shows</button>
 <div class="content">
-  <p>Text</p>
+  <p> <br>
+  <h2>Test</h2>
+  </p>
 </div>
 <button class="collapsible">Open Section 3</button>
 <div class="content">
-  <p>
+  <p><br>
   Text
   </p>
-  <button class="collapsible">Test</button>
-    <div class="content">
-    <p>
-    Plan To Rewatch<br>
-    High Priority<br>
-    Medium Priority<br>
-    Low Priority<br>
-    </p>
-    </div>
     <p></p>
 </div>
 
@@ -142,11 +134,9 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-<div style="width: 1050px; top: 0; left: 50%; margin-left: -525px; position: fixed; z-index: 10;text-align:left">
-This is a test
-</div>
 </body>
 </html>
+<title>GreenJ.net<title>
 
 
 ##### Path: [root](https://greenj.net):/[tracker](https://greenj.net/tracker)/

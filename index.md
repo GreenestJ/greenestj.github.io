@@ -1,5 +1,6 @@
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+<title>GreenJ.net<title>
 
 ##### Path: [root](https://greenj.net):/
 
@@ -15,6 +16,7 @@
 I have some misc stuff but don't really know what to do with this site
 
 ‏‏‎ ‎
+
 ‏‏‎ ‎
 
 ### Random Links
