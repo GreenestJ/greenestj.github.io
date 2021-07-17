@@ -111,10 +111,17 @@ function topFunction() {
 </div>
 <button class="collapsible">Open Section 3</button>
 <div class="content">
-  <p>Text</p>
+  <p>
+  Text
+  </p>
   <button class="collapsible">Test</button>
     <div class="content">
-    <p>Text</p>
+    <p>
+    Plan To Rewatch<br>
+    High Priority<br>
+    Medium Priority<br>
+    Low Priority<br>
+    </p>
     </div>
     <p></p>
 </div>
@@ -135,7 +142,9 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-
+<div style="width: 1050px; top: 0; left: 50%; margin-left: -525px; position: fixed; z-index: 10;text-align:left">
+This is a test
+</div>
 </body>
 </html>
 
