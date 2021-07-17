@@ -17,7 +17,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: lightgrey;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -113,7 +113,10 @@ function topFunction() {
 <div class="content">
   <p>Text</p>
   <button class="collapsible">Test</button>
-
+    <div class="content">
+    <p>Text</p>
+    </div>
+    <p></p>
 </div>
 
 <script>
