@@ -11,7 +11,7 @@
 
 ## Guilty Gear Strive
 
-I messed around and made a few basic mods they're hosted on my gamebanana page <a href="https://gamebanana.com/members/1942433"><img src="/assets/gb.png" alt="Gamebanana Logo" width="16" height="16">
+I messed around and made a few basic mods they're hosted on my gamebanana page <a href="https://gamebanana.com/members/1942433"><img src="/assets/gb.png" alt="Gamebanana Logo" width="24" height="24">
 
 
 ## Minecraft
