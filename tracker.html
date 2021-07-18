@@ -102,8 +102,54 @@
 
         </style>
         <section class="main-content">
-            
-            <style>.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+            <style>
+                #myBtn {
+                    position: fixed;
+                    display: none;
+                    right: 30px;
+                    bottom: 20px;
+                    font-size: 18px;
+                    z-index: 99;
+                    outline: none;
+                    border: none;
+                    color: white;
+                    background-color: rgba(102, 102, 102, 0.658);
+                    padding: 15px;
+                    cursor: pointer;
+                    border-radius: 4px;
+            }
+
+            #myBtn:hover {
+                background-color: #555;
+            }
+            </style>
+            <section class="return to top">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Return to Top</button>
+                
+                <script>
+                    //Get the button
+                    var mybutton = document.getElementById("myBtn");
+                    
+                    // When the user scrolls down 20px from the top of the document, show the button
+                    window.onscroll = function() {scrollFunction()};
+                    
+                    function scrollFunction() {
+                      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                        mybutton.style.display = "block";
+                      } else {
+                        mybutton.style.display = "none";
+                      }
+                    }
+                    
+                    // When the user clicks on the button, scroll to the top of the document
+                    function topFunction() {
+                      document.body.scrollTop = 0;
+                      document.documentElement.scrollTop = 0;
+                    }
+                    </script>
+            </section>
+            <style>
+            .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
                 margin-top: 2rem;
                 margin-bottom: 1rem;
                 font-weight: normal;
@@ -131,7 +177,8 @@
                 Path: <a href="https://greenj.net">root</a>:/<a href="https://greenj.net/tracker">tracker</a>
             </h5>
             <h1>PAGE IN PROGRESS</h1>
-
+                <section class="ToC"> <!--Table of contents of the site-->
+                    
             <h1>Table of Contents</h1>
             <button type="button" class="collapsible">Live Action Shows</button>
             <div class="content">
@@ -156,54 +203,54 @@
             <button type="button" class="collapsible">Webcomics</button>
             <div class="content">
             <p style="padding: 5px;">
-                <br>
-                Watching
-                <br>
-                On Hold
-                <br>
-                Planning
+                <br><a href="#web-read">Reading</a><br>On Hold<br>Planning
             </p>
-            <p style="margin-left: 40px;padding: 5px;">
-                Plan to rewatch
+            <p style="margin-left: 20px;">
+                -   Plan to reread
                 <br>
-                High Priority
+                -   High Priority
                 <br>
-                Normal Priority
+                -   Normal Priority
                 <br>
-                Low Priority
+                -   Low Priority
             </p>
             <p>
                 Dropped
             </p>
         </div>
-        <h1 id="show"></h1>
-        <h1 id="film"></h1>
-        <h1 id="cartoon"></h1>
-        <h1 id="anime"></h1>
-        <h1 id="man"></h1>
-        <h1 id="web"></h1>
-
-
-
+        <button type="button" class="collapsible">Novels</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
         <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            } 
-          });
-        }
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+    
+    
+            
+            </script>
+        </section>
 
-
-        
-        </script>
+        <h1 id="show">Live Action Shows</h1>
+        <h1 id="film">Live Action Films</h1>
+        <h1 id="cartoon">Cartoons</h1>
+        <h1 id="anime">Anime</h1>
+        <h1 id="novels">Novels</h1>
+        <h1 id="man">Manga/Manwha/Manhua/Doujins</h1>
+        <h1 id="web">Webcomics</h1>
+        <h2 id="web-read">Reading</h2>
         </section>
     </body>
 </html>
