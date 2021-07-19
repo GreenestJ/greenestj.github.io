@@ -73,6 +73,12 @@
         font-size: 3.25rem;
         }
 
+        .entry{
+            box-shadow: 0 2px 20px rgba(49,54,68,.2);
+            height: 350px;
+            width: 150px;
+        }
+
         </style>
         <section class="page-header">
 
@@ -99,6 +105,16 @@
             * {
                 box-sizing: border-box;
             }
+
+            .entries{
+                    display: grid;
+                    grid-gap: 20px;
+                    grid-template-columns: repeat(auto-fill,150px);
+                    grid-template-rows: repeat(auto-fill,350px);
+                    min-width: 0;
+                    width: 100%;
+                    
+                }
 
         </style>
         <section class="main-content">
@@ -153,25 +169,29 @@
                 margin-top: 2rem;
                 margin-bottom: 1rem;
                 font-weight: normal;
-                color: #159957;
             }
-            h1 {
+            .main-content h1 {
             font-size: 2em;
             margin: 0.67em 0;
             margin-top: 0.67em;
             margin-bottom: 0.67em;
+            color: #181818;
             }
             h2 {
             font-size: 1.6em;
             margin: 0.67em 0;
             margin-top: 0.67em;
             margin-bottom: 0.67em;
+            color: #329c09;
             }
             h3 {
             font-size: 1.3em;
             margin: 0.67em 0;
             margin-top: 0.67em;
             margin-bottom: 0.67em;
+            }
+            h5 {
+                color: #159957;
             }
             a {
             color: #1e6bb8;
@@ -186,9 +206,9 @@
             </style>
 
             <h5>
-                Path: <a href="https://greenj.net">root</a>:/<a href="https://greenj.net/tracker">tracker</a>
+                Path: <a href="https://greenj.net">homepage</a>:/<a href="https://greenj.net/tracker">tracker</a>
             </h5>
-            <h1>PAGE IN PROGRESS</h1>
+            <h1 style="color: red;">PAGE IN PROGRESS</h1>
                 <section class="ToC"> <!--Table of contents of the site-->
                     
             <h1>Table of Contents</h1>
@@ -210,11 +230,26 @@
             </div>
             <button type="button" class="collapsible">Manga/Manwha/Manhua/Doujins</button>
             <div class="content">
-            <p>Lorem ipsum...</p>
+                <p>
+                    <br><a href="#man-read">Reading</a><br><a href="#man-hold">On Hold</a><br><a href="#man-plan">Planning</a>
+                </p>
+                <p style="margin-left: 20px;">
+                    <a href="#man-reread">-   Plan to Reread</a>
+                    <br>
+                    <a href="#man-high">-   High Priority</a>
+                    <br>
+                    <a href="#man-med">-   Medium Priority</a>
+                    <br>
+                    <a href="#man-low">-   Low Priority</a>
+                </p>
+                <p>
+                    <a href="#man-complete">Completed</a><br>
+                    <a href="#man-drop">Dropped</a>
+                </p>
             </div>
             <button type="button" class="collapsible">Webcomics</button>
             <div class="content">
-            <p style="padding: 5px;">
+            <p>
                 <br><a href="#web-read">Reading</a><br><a href="#web-hold">On Hold</a><br><a href="#web-plan">Planning</a>
             </p>
             <p style="margin-left: 20px;">
@@ -227,6 +262,7 @@
                 <a href="#web-low">-   Low Priority</a>
             </p>
             <p>
+                <a href="#web-complete">Completed</a><br>
                 <a href="#web-drop">Dropped</a>
             </p>
         </div>
@@ -255,35 +291,417 @@
             </script>
         </section>
 
+        <p>
+            The tracker isn't tracked automatically it's done whenever I decide to manually update it.
+            <br>Some series have scores.
+        </p>
+
         <h1 id="show">Live Action Shows</h1>
+
+        <h2 id="show-watch">Watching</h2>
+            
+        <div class="entries">
+            <div class="entry">
+                <img src="https://greenj.net/assets/z.png" alt="" style="width:150px;height:200px;">
+                <p style="color: rgb(34, 34, 34);padding-left: 5px;"> <br>Ch. /?</p><p style="color: #777;padding-left: 5px;"><br></p>
+            </div>
+        </div>
+
+        <h2 id="show-hold">On Hold</h2>
+
+        <div class="entries">
+        </div>
+
+        <h2 id="show-plan">Planning</h2>
+
+                <h3 id="show-rewatch">Plan To Rewatch</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="show-high">High Priority</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="show-med">Medium Priority</h3>
+
+                <div class="entries"></div>
+
+            <h3 id="show-low">Low Priority</h3>
+
+                <div class="entries"></div>
+
+        <h2 id="show-complete">Completed</h2>
+
+            <div class="entries">
+            </div>
+
+        <h2 id="web-drop">Dropped</h2>
+
+            <div class="entries"></div> 
 
         <h1 id="film">Live Action Films</h1>
 
-        <h1 id="cartoon">Cartoons</h1>
+        <h2 id="web-read">Watching</h2>
+            
+        <div class="entries">
+            <div class="entry">
+                <img src="https://greenj.net/assets/z.png" alt="" style="width:150px;height:200px;">
+                <p style="color: rgb(34, 34, 34);padding-left: 5px;"> <br>Ch. /?</p><p style="color: #777;padding-left: 5px;"><br></p>
+            </div>
+        </div>
 
-        <h1 id="anime">Anime</h1>
+        <h2 id="web-hold">On Hold</h2>
+        <p>Mainly series on hiatus </p>
 
-        <h1 id="novels">Novels</h1>
+        <div class="entries">
+        </div>
 
-        <h1 id="man">Manga/Manwha/Manhua/Doujins</h1>
+        <h2 id="web-plan">Planning</h2>
 
-        <h1 id="web">Webcomics</h1>
+                <h3 id="web-reread">Plan To Rewatch</h3>
 
-            <h2 id="web-read">Reading</h2>
-
-            <h2 id="web-hold">On Hold</h2>
-
-            <h2 id="web-plan">Planning</h2>
-
-                <h3 id="web-reread">Plan To Reread</h3>
+            <div class="entries"></div>
 
                 <h3 id="web-high">High Priority</h3>
 
+            <div class="entries"></div>
+
                 <h3 id="web-med">Medium Priority</h3>
+
+                <div class="entries"></div>
+
+            <h3 id="web-low">Low Priority</h3>
+
+                <div class="entries"></div>
+
+        <h2 id="web-complete">Completed</h2>
+
+            <div class="entries">
+            </div>
+
+        <h2 id="web-drop">Dropped</h2>
+
+            <div class="entries"></div> 
+
+        <h1 id="cartoon">Cartoons</h1>
+
+        <h2 id="web-read">Watching</h2>
+            
+        <div class="entries">
+            <div class="entry">
+                <img src="https://greenj.net/assets/z.png" alt="" style="width:150px;height:200px;">
+                <p style="color: rgb(34, 34, 34);padding-left: 5px;"> <br>Ch. /?</p><p style="color: #777;padding-left: 5px;"><br></p>
+            </div>
+        </div>
+
+        <h2 id="web-hold">On Hold</h2>
+        <p>Mainly series on hiatus </p>
+
+        <div class="entries">
+        </div>
+
+        <h2 id="web-plan">Planning</h2>
+
+                <h3 id="web-reread">Plan To Rewatch</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-high">High Priority</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-med">Medium Priority</h3>
+
+                <div class="entries"></div>
+
+            <h3 id="web-low">Low Priority</h3>
+
+                <div class="entries"></div>
+
+        <h2 id="web-complete">Completed</h2>
+
+            <div class="entries">
+            </div>
+
+        <h2 id="web-drop">Dropped</h2>
+
+            <div class="entries"></div> 
+
+        <h1 id="anime">Anime</h1>
+
+        <h2 id="web-read">Watching</h2>
+            
+        <div class="entries">
+            <div class="entry">
+                <img src="https://greenj.net/assets/z.png" alt="" style="width:150px;height:200px;">
+                <p style="color: rgb(34, 34, 34);padding-left: 5px;"> <br>Ch. /?</p><p style="color: #777;padding-left: 5px;"><br></p>
+            </div>
+        </div>
+
+        <h2 id="web-hold">On Hold</h2>
+        <p>Mainly series on hiatus </p>
+
+        <div class="entries">
+        </div>
+
+        <h2 id="web-plan">Planning</h2>
+
+                <h3 id="web-reread">Plan To Rewatch</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-high">High Priority</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-med">Medium Priority</h3>
+
+                <div class="entries"></div>
+
+            <h3 id="web-low">Low Priority</h3>
+
+                <div class="entries"></div>
+
+        <h2 id="web-complete">Completed</h2>
+
+            <div class="entries">
+            </div>
+
+        <h2 id="web-drop">Dropped</h2>
+
+            <div class="entries"></div> 
+
+        <h1 id="novels">Novels</h1>
+
+        <h2 id="web-read">Reading</h2>
+            
+        <div class="entries">
+            <div class="entry">
+                <img src="https://greenj.net/assets/z.png" alt="" style="width:150px;height:200px;">
+                <p style="color: rgb(34, 34, 34);padding-left: 5px;"> <br>Ch. /?</p><p style="color: #777;padding-left: 5px;"><br></p>
+            </div>
+        </div>
+
+        <h2 id="web-hold">On Hold</h2>
+        <p>Mainly series on hiatus </p>
+
+        <div class="entries">
+        </div>
+
+        <h2 id="web-plan">Planning</h2>
+
+                <h3 id="web-reread">Plan To Reread</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-high">High Priority</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-med">Medium Priority</h3>
+
+                <div class="entries"></div>
+
+            <h3 id="web-low">Low Priority</h3>
+
+                <div class="entries"></div>
+
+        <h2 id="web-complete">Completed</h2>
+
+            <div class="entries">
+            </div>
+
+        <h2 id="web-drop">Dropped</h2>
+
+            <div class="entries"></div> 
+
+        <h1 id="man">Manga/Manwha/Manhua/Doujins</h1>
+        
+        <h2 id="web-read">Reading</h2>
+            
+        <div class="entries">
+            <div class="entry">
+                <img src="https://greenj.net/assets/z.png" alt="" style="width:150px;height:200px;">
+                <p style="color: rgb(34, 34, 34);padding-left: 5px;"> <br>Ch. /?</p><p style="color: #777;padding-left: 5px;"><br></p>
+            </div>
+        </div>
+
+        <h2 id="web-hold">On Hold</h2>
+        <p>Mainly series on hiatus </p>
+
+        <div class="entries">
+        </div>
+
+        <h2 id="web-plan">Planning</h2>
+
+                <h3 id="web-reread">Plan To Reread</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-high">High Priority</h3>
+
+            <div class="entries"></div>
+
+                <h3 id="web-med">Medium Priority</h3>
+
+                <div class="entries"></div>
+
+            <h3 id="web-low">Low Priority</h3>
+
+                <div class="entries"></div>
+
+        <h2 id="web-complete">Completed</h2>
+
+            <div class="entries">
+            </div>
+
+        <h2 id="web-drop">Dropped</h2>
+
+            <div class="entries"></div> 
+
+        <h1 id="web">Webcomics</h1>
+        <!--Monday and Ended Webtoons Done-->
+
+            <h2 id="web-read">Reading</h2>
+            
+            <div class="entries">
+                <div class="entry">
+                    <img src="https://greenj.net/assets/loreolympus.png" alt="Lore Olympus Webtoon Cover" style="width:150px;height:200px;">
+                    <p style="color: rgb(34, 34, 34);padding-left: 5px;">Lore Olympus<br>Ch. 166/?</p><p style="color: #777;padding-left: 5px;"><br>Webtoon</p>
+                </div>
+            </div>
+
+            <h2 id="web-hold">On Hold</h2>
+            <p>Mainly series on hiatus </p>
+            <div class="entries">
+                <div class="entry" style= >
+                    <img src="https://greenj.net/assets/fourleaf.png" alt="Four Leaf Webtoon Cover" style="width:150px;height:200px;">
+                    <p style="color: rgb(34, 34, 34);padding-left: 5px;">Four Leaf <br>Ch. 108/?<br><span style="color: #777;padding-left: 5px;">9.0/10<br><br>Webtoon</span></p>
+                </div>
+                <div class="entry" style= >
+                    <img src="https://greenj.net/assets/nicetomeetyou.png" alt="Four Leaf Webtoon Cover" style="width:150px;height:200px;">
+                    <p style="color: rgb(34, 34, 34);padding-left: 5px;">Nice to Meet You <br>Ch. 41/?<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                </div>
+                <div class="entry">
+                    <img src="https://greenj.net/assets/empyrea.png" alt="EMPYREA Webtoon Cover" style="width:150px;height:200px;">
+                    <p style="color: rgb(34, 34, 34);padding-left: 5px;">EMPYREA<br>Ch. 166/?</p><p style="color: #777;padding-left: 5px;"><br>Webtoon</p>
+                </div>
+                <div class="entry">
+                    <img src="https://greenj.net/assets/fourofthem.png" alt="The Four of Them Webtoon Cover" style="width:150px;height:200px;">
+                    <p style="color: rgb(34, 34, 34);padding-left: 5px;">The Four of Them<br>Ch. 103/?</p><p style="color: #777;padding-left: 5px;"><br>Webtoon</p>
+                </div>
+                <div class="entry">
+                    <img src="https://greenj.net/assets/brainanthology.png" alt="Brain Anthology Webtoon Cover" style="width:150px;height:200px;">
+                    <p style="color: rgb(34, 34, 34);padding-left: 5px;">Brain Anthology<br>Ch. 74/?</p><p style="color: #777;padding-left: 5px;"><br>Webtoon</p>
+                </div>
+                <div class="entry">
+                    <img src="https://greenj.net/assets/heartanthology.png" alt="Heart Anthology Webtoon Cover" style="width:150px;height:200px;">
+                    <p style="color: rgb(34, 34, 34);padding-left: 5px;">Heart Anthology<br>Ch. 97/?</p><p style="color: #777;padding-left: 5px;"><br>Webtoon</p>
+                </div>
+            </div>
+
+            <h2 id="web-plan">Planning</h2>
+
+                    <h3 id="web-reread">Plan To Reread</h3>
+
+                <div class="entries"></div>
+
+                    <h3 id="web-high">High Priority</h3>
+
+                <div class="entries"></div>
+
+                    <h3 id="web-med">Medium Priority</h3>
+
+                    <div class="entries"></div>
 
                 <h3 id="web-low">Low Priority</h3>
 
+                    <div class="entries"></div>
+
+            <h2 id="web-complete">Completed</h2>
+
+                <div class="entries">
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/capeofspirits.png" alt="Cape of Spirits Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Cape of Spirits <br>Ch. 89/89<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/dragon.png" alt="Dragnarok Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Dragnarok <br>Ch. 25/25<br><span style="color: #777;padding-left: 5px;"><br><br>Dragnarok.com</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/dragnarokdescendents.png" alt="Dragnarok Descendents Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Dragnarok Descendents<br>Ch. 30/30<br><span style="color: #777;padding-left: 5px;"><br>Dragnarok.com</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/dragnarokawakening.png" alt="Dragnarok Awakening Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Dragnarok Awakening<br>Ch. 58/58<br><span style="color: #777;padding-left: 5px;"><br>Dragnarok.com</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/freakingromance.png" alt="Freaking Romance Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Freaking Romance <br>Ch. 79/79<br><span style="color: #777;padding-left: 5px;"><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/gourmethound.png" alt="Gourmet Hound Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Gourmet Hound <br>Ch. 166/166<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/gremoryland.png" alt="GremoryLand Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">GremoryLand <br>Ch. 67/67<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/hooky.png" alt="Hooky Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Hooky <br>Ch. 222/222<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/justforkicks.png" alt="Just For Kicks Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Just For Kicks <br>Ch. 162/162<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/kindoflove.png" alt="Kind of Love Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Kind of Love Anthology <br>Ch. 56/56<br><span style="color: #777;padding-left: 5px;"><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/luff.png" alt="Luff Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Luff <br>Ch. 97/97<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/messenger.png" alt="Messenger Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Messenger <br>Ch. 90/90<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/mynameisbenny.png" alt="My Name is Benny Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">My Name is Benny<br>Ch. 255/255<br><span style="color: #777;padding-left: 5px;"><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/phantomparadise.png" alt="Phantom Paradise Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Phantom Paradise<br>Ch. 128/128<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/risefromashes.png" alt="Rise From Ashes Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Rise From Ashes <br>Ch. 131/131<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/rotandruin.png" alt="Rot & Ruin Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Rot & Ruin <br>Ch. 48/48<br><span style="color: #777;padding-left: 5px;">4.0/10<br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/steamdragonexpress.png" alt="The Steam Dragon Express Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">The Steam Dragon Express <br>Ch. 105/105<br><span style="color: #777;padding-left: 5px;"><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/thedanemen.png" alt="The DaneMen Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">The DaneMen <br>Ch. 271/271<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                    <div class="entry" style= >
+                        <img src="https://greenj.net/assets/toasterdude.png" alt="Toaster Dude Webtoon Cover" style="width:150px;height:200px;">
+                        <p style="color: rgb(34, 34, 34);padding-left: 5px;">Toaster Dude <br>Ch. 59/59<br><span style="color: #777;padding-left: 5px;"><br><br>Webtoon</span></p>
+                    </div>
+                </div>
+
             <h2 id="web-drop">Dropped</h2>
+
+                <div class="entries"></div> 
 
         </section>
     </body>
