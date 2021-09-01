@@ -75,7 +75,7 @@
                 
         .page-header {
             padding: 5rem 6rem;
-            padding-top: 5rem;
+            padding-top: 7rem;
             padding-right: 6rem;
             padding-bottom: 5rem;
             padding-left: 6rem;
@@ -100,7 +100,83 @@
         font-size: 3.25rem;
         }
 
+        .navigator{
+            display: grid;
+            grid-template-columns: 170px 140px 130px 140px;
+            margin: auto;
+            width: 540px;
+            font-size: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .navi-link{
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            width: 200px;
+            position: absolute;
+            overflow: auto;
+            box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+            background-color: rgb(54, 54, 54);
+            color:white;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            display: block;
+            color: #ffffff;
+            padding: 5px;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            color: #FFFFFF;
+            background-color: #00A4BD;
+        }
         </style>
+        <div style="position: fixed;background-color: rgb(54, 54, 54);width: 100%;">
+            <section class="navigator">
+                <a class="navi-link" href="https://greenj.net">Homepage</a>
+                <div class="dropdown">
+                    <a class="navi-link" href="https://greenj.net/projects">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="https://greenj.net/projects#mod-ggs">Guilty Gear Strive Modding</a>
+                        <a href="https://greenj.net/projects#mod-mc">Minecraft Modding</a>
+                        <a href="https://greenj.net/projects#mod-dshc">Demon Slayer Modding</a>
+                        <a href="https://greenj.net/projects#subspace">Subspace Projects</a>
+                        <a href="https://greenj.net/projects#roblox">Roblox Game</a>
+                        <a href="https://greenj.net/projects#fandub">Fandub</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="navi-link" href="https://greenj.net/tracker">Tracker</a>
+                    <div class="dropdown-content">
+                        <a href="https://greenj.net/tracker#show">Live Action Shows</a>
+                        <a href="https://greenj.net/tracker#film">Live Action Films</a>
+                        <a href="https://greenj.net/tracker#cartoon">Cartoons</a>
+                        <a href="https://greenj.net/tracker#anime">Anime</a>
+                        <a href="https://greenj.net/tracker#novel">Novels</a>
+                        <a href="https://greenj.net/tracker#man">Manga/Manwha</a>
+                        <a href="https://greenj.net/tracker#web">Webcomics</a>
+                        <a href="https://greenj.net/tracker#game">Video Games</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="navi-link" href="">Misc. Link</a>
+                    <div class="dropdown-content">
+                        <a href="https://www.youtube.com/watch?v=vpYdEjvAg3k">How to do a fuckin infinite</a>
+                        <a href="https://github.com/danleeb/GreenJ">Code of Me</a>
+                        <a href="https://greenj.net/assets/women.mp4">Woman</a>
+                    </div>
+                </div>
+            </section>
+        </div>
         <section class="page-header">
 
             <h1 class="project-name">Projects</h1>
@@ -228,7 +304,7 @@
                     <h2 style="margin-left: 20px;"id="mod-mc">- Minecraft</h2>
                        <p>Soon™</p> 
                     <h2 style="margin-left: 20px;"id="mod-dshc">- Demon Slayer - The Hinokami Chronicles</h2>
-                        <p>The game is not released but I have plans to mod the game</p>
+                        <p>The game is not released but I have plans to mod the game if its possible</p>
                 </section>
                 <br>
                 <section class="subspace">
@@ -272,12 +348,12 @@
                 <section class="roblox">
                     <h1 id="roblox">Roblox Game Development</h1>
                     <p>
-                        Game idea is being made but not done in the slightest
+                        Game idea is being made but not done in the slightest. 0 lines of code.
                     </p>
                 </section>
                 <section class="fandub">
                     <h1 id="fandub">Fandub</h1>
-                    <p>Me and the boys plan to fuck around do a fandub/abrdiged series</p>
+                    <p>Me and the boys plan to fuck around do a fandub/abridged series however theres a good chance it will never be done.</p>
             </section>
             <section style="padding-top: 50px;">
             <p>© 2021 GreenJ</p>
