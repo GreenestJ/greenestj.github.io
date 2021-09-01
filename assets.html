@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Assets</title>
+        <meta name="googlebot" content="noindex">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Assets">
         <meta property="og:description" content="Part of the pathing to store assets don't visit">
@@ -31,7 +32,7 @@
                 
         .page-header {
             padding: 5rem 6rem;
-            padding-top: 5rem;
+            padding-top: 7rem;
             padding-right: 6rem;
             padding-bottom: 5rem;
             padding-left: 6rem;
@@ -55,8 +56,83 @@
         .project-name {
         font-size: 3.25rem;
         }
-
+        .navigator{
+            display: grid;
+            grid-template-columns: 170px 140px 130px 140px;
+            margin: auto;
+            width: 540px;
+            font-size: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .navi-link{
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            width: 200px;
+            position: absolute;
+            overflow: auto;
+            box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+            background-color: rgb(54, 54, 54);
+            color:white;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            display: block;
+            color: #ffffff;
+            padding: 5px;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            color: #FFFFFF;
+            background-color: #00A4BD;
+        }
         </style>
+        <div style="position: fixed;background-color: rgb(54, 54, 54);width: 100%;">
+            <section class="navigator">
+                <a class="navi-link" href="">Homepage</a>
+                <div class="dropdown">
+                    <a class="navi-link" href="">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="">Guilty Gear Strive Modding</a>
+                        <a href="">Minecraft Modding</a>
+                        <a href="">Demon Slayer Modding</a>
+                        <a href="">Subspace Projects</a>
+                        <a href="">Roblox Game</a>
+                        <a href="">Fandub</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="navi-link" href="">Tracker</a>
+                    <div class="dropdown-content">
+                        <a href="">Live Action Shows</a>
+                        <a href="">Live Action Films</a>
+                        <a href="">Cartoons</a>
+                        <a href="">Anime</a>
+                        <a href="">Novels</a>
+                        <a href="">Manga/Manwha</a>
+                        <a href="">Webcomics</a>
+                        <a href="">Video Games</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="navi-link" href="">Misc. Link</a>
+                    <div class="dropdown-content">
+                        <a href="">How to do a fuckin infinite</a>
+                        <a href="">Code of Me</a>
+                        <a href="">Woman</a>
+                    </div>
+                </div>
+            </section>
+        </div>
         <section class="page-header">
 
             <h1 class="project-name">Assets</h1>
