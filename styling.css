@@ -176,11 +176,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 150px;
     transform: scale(140%);
 }
-
-.grid    {
+.projects-grid    {
     align-self: center;
     display: grid;
     grid-gap: 100px;
+    grid-template-columns: repeat(auto-fill,150px); 
+    grid-template-rows: repeat(auto-fill,250px);
+    min-width: 0;
+    width: 100%;    
+}
+.grid    {
+    align-self: center;
+    display: grid;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fill,150px); 
     grid-template-rows: repeat(auto-fill,250px);
     min-width: 0;
