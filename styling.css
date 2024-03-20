@@ -1,0 +1,189 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606c71;
+}
+
+body {
+margin: 0;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/*Header*/
+        .page-header {
+            padding: 5rem 6rem;
+            padding-top: 7rem;
+            padding-right: 5rem;
+            padding-bottom: 5rem;
+            padding-left: 6rem;
+        }
+
+        .page-header {
+        color: #fff;
+        text-align: center;
+        background-color: #159957;
+        background-image: linear-gradient(120deg, #155799, #159957);
+        }
+                
+        article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+        display: block;
+        }
+
+        .project-name {
+        font-size: 3.25rem;
+        }
+
+        .navigator{
+            display: grid;
+            grid-template-columns: 170px 140px;
+            margin: auto;
+            width: 310px;
+            font-size: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .navi-link{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+        .dropdown {
+            display: inline-block;
+            position: relative;
+            text-align: center;
+        }
+        .dropdown-content {
+            display: none;
+            width: 200px;
+            position: absolute;
+            overflow: auto;
+            box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+            background-color: rgb(54, 54, 54);
+            color:white;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            display: block;
+            color: #ffffff;
+            padding: 5px;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            color: #FFFFFF;
+            background-color: #00A4BD;
+        }
+            
+        .main-content {
+            padding: 2rem 6rem;
+            max-width: 64rem;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+
+        .main-content {
+            word-wrap: break-word;
+        }
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+            display: block;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+/*Page Name*/
+  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: normal;
+            color: #159957;
+        }
+        h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+        padding-top: 1em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        }
+        a {
+        color: #1e6bb8;
+        text-decoration: none;
+        }
+        a {
+        background-color: transparent;
+        }
+        .main-content :first-child {
+        margin-top: 0;
+        }
+        
+
+/*Main Body*/
+.main-content {
+    padding: 2rem 6rem;
+    max-width: 64rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.main-content {
+    word-wrap: break-word;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.credits {
+    padding: 2rem 6rem;
+    max-width: 64rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    padding-top: 4rem;
+}
+
+
+/*Projects*/
+
+.entry{
+    box-shadow: 0 2px 20px rgba(49,54,68,.2);
+    height: 250px;
+    width: 150px;
+}
+.projects-entry{
+    box-shadow: 0 2px 20px rgba(49,54,68,.2);
+    height: 250px;
+    width: 150px;
+    border-radius: 2ch;
+    background-color: rgba(232, 232, 232, 0.351);
+    transition: transform 1s ease-in-out;
+}
+.projects-entry:hover{
+    box-shadow: 0 2px 20px rgba(27, 30, 37, 0.829);
+    height: 250px;
+    width: 150px;
+    transform: scale(140%);
+}
+
+.grid    {
+    align-self: center;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(auto-fill,150px); 
+    grid-template-rows: repeat(auto-fill,250px);
+    min-width: 0;
+    width: 100%;
+            
+}
